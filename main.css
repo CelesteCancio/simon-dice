@@ -1,0 +1,49 @@
+body { 
+	height: 100%; 
+	margin: 0px; 
+	padding: 0px; 
+	background-color: rgb(48, 42, 42);
+}
+.cuadro {
+	height: 250px;
+	border-radius: 20%;
+	opacity: 0.5;
+	transition: opacity 500ms;
+	padding: 20px;
+	color: lightgray;
+	font-weight: bold;
+}
+
+.cuadro:hover{
+	cursor: pointer;
+}
+#cuadroA {
+	background-color: hotpink;
+}
+
+#cuadroB {
+	background-color: blueviolet;
+}
+
+#cuadroC {
+	background-color: yellow;
+}
+
+#cuadroD {
+	background-color: greenyellow;
+}
+
+p{
+    color: lightgray;
+}
+
+#tablero{
+    background-color: rgb(48, 42, 42);
+	height: 100%;
+	margin: 0;
+}
+
+#cabecera{
+    background-color: rgb(85, 82, 82);
+	height: 100%;
+}
