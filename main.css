@@ -5,7 +5,7 @@ body {
 	background-color: rgb(48, 42, 42);
 }
 .cuadro {
-	height: 250px;
+	height: 35vh;
 	border-radius: 20%;
 	opacity: 0.5;
 	transition: opacity 500ms;
@@ -47,3 +47,22 @@ p{
     background-color: rgb(85, 82, 82);
 	height: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+	.cuadro{
+		height: 10vh;
+		margin: 10px;
+	}
+	.btn{
+		padding: 1px 5px;
+		font-size: 12px;	
+		margin: 0;	
+	}
+	#turnos{
+		height: 5vh;
+		font-size: 12px;
+		align-items: center;
+		padding: 6px;
+		margin: 0;
+	}
+  }
