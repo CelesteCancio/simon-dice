@@ -1,4 +1,5 @@
 # simon-dice
+Juego Simon Dice desarrollado para el curso r/Argentina-programa.
 
 ## Instalacion
 Para poder ponerlo en Netlify, cambie npm a CDN.
